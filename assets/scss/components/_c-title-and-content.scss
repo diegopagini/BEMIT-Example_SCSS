@@ -1,0 +1,92 @@
+/* ========================================================================================= */
+/* COMPONENT - C TITLE AND CONTENT */
+/* ========================================================================================= */
+
+.c-title-and-content{
+
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 150px;
+
+    &__container{
+
+    }
+
+    &__col{
+
+    }
+
+    &__wrapper-title{
+
+        width: 100%;
+        display: block;
+        padding-bottom: 20px;
+
+        @include md{
+
+            padding-bottom: 40px;
+            
+        }
+
+    }
+
+    &__title{
+
+        width: 100%;
+        display: block;
+        color: $white;
+        text-align: center;
+
+        // DEFAULT
+        opacity: 0;
+        transform: translateY(20px);
+        transition: all 0.6s ease-in-out;
+        transition-delay: 0s;
+
+        // IS VISIBLE
+        .is-visible &{
+
+            opacity: 1;
+            transform: translateY(0px);
+
+        }
+
+    }
+
+    &__wrapper-content{
+
+        width: 100%;
+        display: block;
+
+    }
+
+    &__content{
+
+        width: 100%;
+        display: block;
+        color: $white;
+        text-align: center;
+
+        // DEFAULT
+        opacity: 0;
+        transform: translateY(40px);
+        transition: all 0.6s ease-in-out;
+        transition-delay: 0.2s;
+
+        // IS VISIBLE
+        .is-visible &{
+
+            opacity: 1;
+            transform: translateY(0px);
+
+        }
+
+    }
+
+}
+
+/* ========================================================================================= */
+/* END COMPONENT - C TITLE AND CONTENT */
+/* ========================================================================================= */
+

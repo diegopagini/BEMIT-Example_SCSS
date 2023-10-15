@@ -1,0 +1,75 @@
+/* ========================================================================================= */
+/* OBJECT - O COL */
+/* ========================================================================================= */
+
+.o-col{
+    
+    &-12-12{
+
+        width: 100%;
+        padding-left: ($padding_col/2);
+        padding-right: ($padding_col/2);
+
+        &\@xs{
+            @include only-xs{
+                width: 100%;
+                padding-left: ($padding_col/2);
+                padding-right: ($padding_col/2);
+            }
+        }
+        &\@sm{
+            @include only-sm{
+                width: 100%;
+                padding-left: ($padding_col/2);
+                padding-right: ($padding_col/2);
+            }
+        }
+        &\@md{
+            @include only-md{
+                width: 100%;
+                padding-left: ($padding_col/2);
+                padding-right: ($padding_col/2);
+            }
+        }
+
+    }
+
+    // ...
+    
+    &-6-12{
+
+        width: 50%;
+        padding-left: ($padding_col/2);
+        padding-right: ($padding_col/2);
+
+        &\@xs{
+            @include only-xs{
+                width: 50%;
+                padding-left: ($padding_col/2);
+                padding-right: ($padding_col/2);
+            }
+        }
+        &\@sm{
+            @include only-sm{
+                width: 50%;
+                padding-left: ($padding_col/2);
+                padding-right: ($padding_col/2);
+            }
+        }
+        &\@md{
+            @include only-md{
+                width: 50%;
+                padding-left: ($padding_col/2);
+                padding-right: ($padding_col/2);
+            }
+        }
+
+    }
+
+    // ...
+
+}
+
+/* ========================================================================================= */
+/* END OBJECT - O COL */
+/* ========================================================================================= */

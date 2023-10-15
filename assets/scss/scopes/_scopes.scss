@@ -1,0 +1,80 @@
+.s-debug{
+
+    // Outline all classes.
+    [class] {
+        outline: 3px solid lightgrey;
+    }
+
+    // Outline all BEM Elements.
+    [class*="__"] {
+        outline-color: grey;
+    }
+
+    // Outline all BEM Modifiers.
+    [class*="--"] {
+        outline-color: rgb(72, 72, 72);
+    }
+
+    // Outline all Object classes.
+    [class^="o-"],
+    [class*=" o-"] {
+        outline-color: orange;
+    }
+
+    // Outline all Component classes.
+    [class^="c-"],
+    [class*=" c-"] {
+        outline-color: lightseagreen;
+    }
+
+
+    // Outline all utility classes.
+    [class^="u-"],
+    [class*=" u-"] {
+        outline-color: lightcoral;
+    }
+
+
+    // Outline all state classes.
+    [class^="is-"],
+    [class*=" is-"], 
+    [class^="has-"],
+    [class*=" has-"]{
+        outline-color: yellow;
+    }
+
+    // Outline all js classes.
+    [class^="js-"],
+    [class*=" js-"] {
+        outline-color: darkmagenta;
+    }
+
+    // Outline all theme classes.
+    [class^="t-"],
+    [class*=" t-"] {
+        outline-color: darkblue;
+    }
+
+    // Outline all scope classes.
+    [class^="s-"],
+    [class*=" s-"] {
+        outline-color: darkorange;
+    }
+
+    // Outline all qa classes.
+    [class^="qa-"],
+    [class*=" qa-"] {
+        outline-color: lightpink;
+    }
+
+    // Outline all Hack classes.
+    [class^="_"] {
+        outline-color: red;
+    }
+
+    // Outline all Responsive classes.
+    [class*="@"] {
+        outline-color: greenyellow;
+    }
+
+}

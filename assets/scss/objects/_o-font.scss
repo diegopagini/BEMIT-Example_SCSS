@@ -1,0 +1,215 @@
+/* ========================================================================================= */
+/* OBJECT - O FONT */
+/* ========================================================================================= */
+
+.o-font{
+
+    &-h1{
+
+        font-family     : $font-a;
+        font-weight     : 200;
+        font-style      : normal;
+
+        @include only-md{
+
+            font-size       : 46px;
+            line-height     : 56px;
+
+        }
+
+        @include only-sm{
+
+            font-size       : 34px;
+            line-height     : 40px;
+
+        }
+
+        @include only-xs{
+
+            font-size       : 34px;
+            line-height     : 40px;
+
+        }
+
+    }
+
+    &-h2{
+
+        font-family     : $font-a;
+        font-weight     : 200;
+        font-style      : normal;
+
+        @include only-md{
+
+            font-size       : 40px;
+            line-height     : 48px;
+
+        }
+
+        @include only-sm{
+
+            font-size       : 30px;
+            line-height     : 38px;
+
+        }
+
+        @include only-xs{
+
+            font-size       : 30px;
+            line-height     : 38px;
+
+        }
+
+    }
+
+    &-h3{
+
+        font-family     : $font-a;
+        font-weight     : 200;
+        font-style      : normal;
+
+        @include only-md{
+
+            font-size       : 32px;
+            line-height     : 40px;
+
+        }
+
+        @include only-sm{
+
+            font-size       : 24px;
+            line-height     : 32px;
+
+        }
+
+        @include only-xs{
+
+            font-size       : 24px;
+            line-height     : 32px;
+
+        }
+
+    }
+
+    &-body{
+
+        font-family     : $font-a;
+        font-weight     : 400;
+        font-style      : normal;
+
+        @include only-md{
+
+            font-size       : 15px;
+            line-height     : 19px;
+
+        }
+
+        @include only-sm{
+
+            font-size       : 14px;
+            line-height     : 28px;
+
+        }
+
+        @include only-xs{
+
+            font-size       : 14px;
+            line-height     : 18px;
+
+        }
+
+    }
+
+    &-p{
+
+        font-family     : $font-b;
+        font-weight     : 300;
+        font-style      : normal;
+
+        @include only-md{
+
+            font-size       : 14px;
+            line-height     : 26px;
+
+        }
+
+        @include only-sm{
+
+            font-size       : 13px;
+            line-height     : 25px;
+
+        }
+
+        @include only-xs{
+
+            font-size       : 13px;
+            line-height     : 25px;
+
+        }
+
+    }
+
+    &-button{
+
+        font-family     : $font-a;
+        font-weight     : 400;
+        font-style      : normal;
+
+        @include only-md{
+
+            font-size       : 16px;
+            line-height     : 18px;
+
+        }
+
+        @include only-sm{
+
+            font-size       : 15px;
+            line-height     : 17px;
+
+        }
+
+        @include only-xs{
+
+            font-size       : 15px;
+            line-height     : 17px;
+
+        }
+
+    }
+
+    &-caption{
+
+        font-family     : $font-a;
+        font-weight     : 400;
+        font-style      : normal;
+        text-transform  : uppercase;
+
+        @include only-md{
+
+            font-size       : 14px;
+            line-height     : 20px;
+
+        }
+
+        @include only-sm{
+
+            font-size       : 13px;
+            line-height     : 19px;
+
+        }
+
+        @include only-xs{
+
+            font-size       : 13px;
+            line-height     : 19px;
+
+        }
+
+    }
+
+}
+
+/* ========================================================================================= */
+/* END OBJECT - O FONT */
+/* ========================================================================================= */

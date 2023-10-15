@@ -1,0 +1,70 @@
+/* ========================================================================================= */
+/* COMPONENT - C MENU DROPDOWN */
+/* ========================================================================================= */
+
+.c-menu-dropdown{
+
+    transition: all 1.2s cubic-bezier(.19,.77,.22,1);
+    transform: translateY( -101% );
+    z-index: 9996;
+    position: fixed;
+    right: 0;
+    top: 0px;
+    width: 100%;
+    background-color: $black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+
+    &.is-active{
+
+        transform: translateY( 0% );
+
+    }
+
+    &__wrapper-all{
+
+        width: 100%;
+
+    }
+
+    &__wrapper-menu{
+
+    }
+
+    &__wrapper-inner{
+
+        width: 100%;
+        
+    }
+
+    &__menu{
+
+        width: 100%;
+        text-align: center;
+
+    }
+
+    &__menu-item{
+
+        position: relative;
+        padding-right: 0px;
+        padding-bottom: 30px;
+
+    }
+    
+    &__menu-item-link{
+
+        color: $white;
+        font-size: 64px;
+        line-height: 92px;
+        text-decoration: none;
+        font-weight: 900;
+        
+    }
+
+}
+
+/* ========================================================================================= */
+/* END COMPONENT - C MENU DROPDOWN */
+/* ========================================================================================= */
